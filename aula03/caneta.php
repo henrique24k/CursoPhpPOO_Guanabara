@@ -5,7 +5,7 @@ class Caneta{
     private $cor;
     private $ponta;
     private $tampada;
-    // public function __construct(){ //Método construtor pode ter o mesmo nome da classe
+    // public function __construct(){
     //     $this->cor = "Azul";
     //     $this->tampar();
     // }
@@ -16,7 +16,7 @@ class Caneta{
         $this->ponta = $tip;
         $this->tampar();
     }
-
+ 
     public function tampar(){
         $this->tampada = true;
     }
